@@ -20,8 +20,6 @@ the classifier
 
 #### Classifier
 
-`On 30% validation set`
-
 * Accuracy of classification model: ~91%
 * Kappa score of classification model: ~85
 
