@@ -1,0 +1,12 @@
+classification/.ipynb_checkpoints/*
+classification/models/*
+classification/tmp/*
+datasets-preparation/.ipynb_checkpoints/*
+datasets-preparation/all_gujarati_wikipedia_links.pkl
+language-model/.ipynb_checkpoints/*
+language-model/GujaratiDataset/*
+language-model/GujaratiWikipediaArticles/*
+tokenizer/.ipynb_checkpoints/*
+tokenizer/gujarati_lm.model
+tokenizer/gujarati_lm.vocab
+classification/Gujarati_Classification_Data_News_Headlines.csv
