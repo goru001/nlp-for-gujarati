@@ -1,27 +1,45 @@
 # NLP for Gujarati
 
-This repository contains State of the Art Tokenizer, Language model and Classifier for Gujarati, which is a language native to the Indian state of Gujarat.
+This repository contains State of the Art Language models and Classifier
+ for Gujarati, which is a language native to the Indian state of Gujarat.
+
+The models trained here have been used in [Natural Language Toolkit for Indic Languages
+ (iNLTK)](https://github.com/goru001/inltk)
 
 ## Dataset
 
-* Download [Gujarati Wikipedia Articles Dataset](https://drive.google.com/open?id=1yzMEc7BHYq8DCkwYlQHt0-2UzSt1QBZ9) (31,913 articles) which I scraped, cleaned and
-used to train the language model
+#### Created as part of this project
+1. [Gujarati Wikipedia Articles](https://www.kaggle.com/disisbig/gujarati-wikipedia-articles)
 
-* Download [Gujarati News classification Dataset](https://drive.google.com/open?id=1pwbJuIWyukBoFTvWgn8U2qaCt5JiRVwO) which I scraped and used to train 
-the classifier
+2. [Gujarati News Dataset](https://www.kaggle.com/disisbig/gujarati-news-dataset)
 
 ## Results
 
-#### Language Model
+#### Language Model Perplexity
 
-`on 30% validation set`
+| Architecture/Dataset | Gujarati Wikipedia Articles |
+|:--------:|:----:|
+|   ULMFiT  |  34.12  |
+|  TransformerXL |  28.12  |
 
-* Perplexity of language model: ~34
 
-#### Classifier
+#### Classification Metrics
 
-* Accuracy of classification model: ~91%
-* Kappa score of classification model: ~85
+##### ULMFiT
+
+| Dataset | Accuracy | Kappa Score |
+|:--------:|:----:|:----:|
+| Gujarati News Dataset |  92.4  |  87.9  |
+
+#### Visualizations
+ 
+##### Embedding Space
+
+| Architecture | Visualization |
+|:--------:|:----:|
+| ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-gujarati/master/language-model/embedding_projector_config.json) |
+| TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-gujarati/master/language-model/embedding_projector_transformer_config.json)  |
+
 
 ## Pretrained Language Model
 

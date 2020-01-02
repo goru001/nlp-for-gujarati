@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Gujarati Embedding Vectors",
+      "tensorName": "Gujarati Embedding Vectors - ULMFiT",
       "tensorShape": [
         20000,
         400
