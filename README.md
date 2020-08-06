@@ -57,13 +57,13 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 | iNLTK Headlines Corpus - Gujarati | (5269, 659, 659) | 91.05 | 86.09 | [Link](https://github.com/goru001/nlp-for-gujarati/blob/master/classification/Gujarati_Classification_Model.ipynb) |
  
 
-##### On using 1% of training set (with Transfer learning)
+##### On using 10% of training set (with Transfer learning)
 
 | Dataset | Dataset size (train, valid, test) | Accuracy | MCC | Notebook to Reproduce results |
 |:--------:|:----:|:----:|:----:|:----:|
 | iNLTK Headlines Corpus - Gujarati | (526, 659, 659) | 80.88 | 70.18 | [Link](https://github.com/goru001/nlp-for-gujarati/blob/master/classification/Gujarati_Classification_Model_without_aug.ipynb) |
  
-##### On using 1% of training set (with Transfer learning + Data Augmentation)
+##### On using 10% of training set (with Transfer learning + Data Augmentation)
 
 | Dataset | Dataset size (train, valid, test) | Accuracy | MCC | Notebook to Reproduce results |
 |:--------:|:----:|:----:|:----:|:----:|
